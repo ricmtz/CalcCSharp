@@ -26,7 +26,7 @@ namespace Calc
             double result;
             Calc calc = Calc.GetInstance();
             result = calc.EvaluateExpresion(this.values);
-            this.values.Clear();<
+            this.values.Clear();
             this.txtScreen.Text = result.ToString();
         }
 
